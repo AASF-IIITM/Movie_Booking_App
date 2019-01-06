@@ -12,7 +12,7 @@
 	</div>
 
 	
-	<%movies.forEach(function(movie){%>
+	<%movies.forEach(function(movie){ if(movie.screening==true){%>
 	<div class="col-md-4">
 		<div class="thumbnail">
 	
@@ -22,14 +22,14 @@
 				<h5 class="card-title"><%=movie.name%></h5>
 				
 				<a class="btn btn-primary" href="/home/<%=movie._id%>">More Info</a>
-				<a class="btn btn-success" href="#">Book Now</a>
+				<a class="btn btn-success" href="/book/<%=movie._id%>">Book Now</a>
 			</div>
 	
 	
 		
 		</div>
 	</div>
-	<%}); %>
+	<%}}); %>
 	</div>
 
 </div>
