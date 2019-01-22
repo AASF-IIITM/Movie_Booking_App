@@ -1,4 +1,5 @@
-# Online_Reservation_System
+# Movie-Booking-Website
+
 
 This is a Movie Booking website using Nodejs. express and MongoDB.
 Their are 2 views of the website :
@@ -23,5 +24,4 @@ Their are 2 views of the website :
                         on your previously left time slots. I have used 4 time slots of 9,12,15 and 1800 Hrs.
     
     3. Manage movies: In this you can add or delete the movies which you might want to add to the screens.
-    
     
