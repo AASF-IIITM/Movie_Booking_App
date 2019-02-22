@@ -5,9 +5,14 @@
 		<h1>Search Results:</h1>
 	</div>
 	<div>
-		<form  method="POST" action="/movie/omdb">
-			<input class="form-group" type="text"  name="title" placeholder="Search-New-Movies-Here" required="true">
-			<button class="btn btn-large btn-default" type="submit">Search</button>
+		<form  method="POST" class="form-inline" action="/movie/omdb">
+			<div class="form-group">
+					<input class="form-group" type="text"  name="title" placeholder="Search-New-Movies-Here" required="true">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-large btn-default" type="submit">Search</button>
+			</div>
+			
 		</form>
 		
 	</div>
