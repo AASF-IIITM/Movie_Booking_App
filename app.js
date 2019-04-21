@@ -29,7 +29,7 @@ const express=require("express"),
 	app.use(methodOverride("_method"));
 	app.use(flash());
 
-	seed();
+	//seed();
 
 	
 
